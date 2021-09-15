@@ -1,0 +1,106 @@
+/* ======== RESET CSS ======== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ======== BODY ========*/
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-image: url(../assets/container-bg.jpg);
+  background-size: 100vw 115vh;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+}
+
+/* ======== HEADER ======== */
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 15px;
+}
+
+
+header .main-header {
+  display: flex;
+  align-items: center;
+}
+
+header .main-header img {
+  width: 50px;
+  height: 50px;
+}
+
+header h1 {
+  margin-left: 8px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li + li {
+  margin-left: 20px;
+}
+
+/* ======== A ======== */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ======== DIVIDER ======== */
+
+.div-line {
+  height: 1px;
+  background-color: #000;
+}
+
+/* ======== CONTAINER ======== */
+.container {
+  height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+}
+
+/* ======== P - CONTAINER ======== */
+.container p {
+  font-size: 65px;
+  padding-left: 70px;
+  padding-bottom: 250px;
+  color: rgb(37, 37, 37);
+}
+
+
+/* ======== BUTTON ======== */
+#button {
+  position: relative;
+  bottom: 400px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-radius: 32px;
+  background: linear-gradient(127deg, #023059, #11238C, #023E73, #03658C, #0388A6, #0388A6);
+  width: 15%;
+  height: 5%;
+  color: white;
+}

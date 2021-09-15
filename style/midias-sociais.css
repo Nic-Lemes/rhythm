@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ======== BODY ======== */
+body {
+  background-image: url(../assets/bg-midias-sociais.jpg);
+  background-size: 100vw 115vh;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* ======== HEADER ======== */
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 15px;
+}
+
+
+header .main-header {
+  display: flex;
+  align-items: center;
+}
+
+header .main-header img {
+  width: 50px;
+  height: 50px;
+}
+
+header h1 {
+  margin-left: 8px;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li + li {
+  margin-left: 20px;
+}
+
+.main-header img{
+  filter: invert(100%);
+}
+
+/* ======== A ======== */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ======== DIVIDER ======== */
+
+.div-line {
+  height: 1px;
+  background-color: #fff;
+}
+
+
+/* ======== SOCIAL MEDIA ======== */
+
+.social-media {
+  padding: 10px;
+}
+
+.social-media a {
+  color: #000;
+  display: block;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+
+.container {
+  width: 36rem;
+  height: 35rem;
+  background: linear-gradient(127deg, #7969B4, rgb(161, 138, 194) );
+  display: flex;
+  text-align: center;
+  margin-left: 1100px;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.social-media img {
+  align-items: center;
+  text-align: center;
+  padding-bottom: -15px;
+}
+
+.social-media h1 {
+  margin-bottom: 15px;
+}
